@@ -1,0 +1,109 @@
+/* @font-face {
+  src: url("fonts/Lato-Regular.ttf");
+  font-family: "lato";
+} */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.menu {
+  background-color: cadetblue;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+}
+.menu ul li {
+  list-style: none;
+  position: relative;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+  font-size: 15px;
+}
+.menu ul li:hover ul {
+  display: block;
+}
+.menu ul li a:hover {
+  background-color: forestgreen;
+}
+.menu ul li ul {
+  position: absolute;
+  display: none;
+  background-color: red;
+}
+.menu ul li ul a {
+  white-space: nowrap;
+}
+.baba {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px;
+}
+.chele {
+  width: 23%;
+}
+.chele p {
+  text-align: justify;
+  background-color: darkkhaki;
+}
+.chele h3 {
+  margin-bottom: 10px;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+  background-color: brown;
+  width: 40%;
+  padding: 10px 15px;
+}
+
+.section-1 {
+  background-color: dodgerblue;
+  display: flex;
+  padding: 100px 0;
+  flex-wrap: wrap;
+}
+.left {
+  width: 35%;
+  padding: 0 20px;
+}
+.right {
+  width: 60%;
+  padding: 0 10px;
+  text-align: justify;
+}
+.right p {
+  line-height: 1.7em;
+  color: white;
+}
+.right h3 {
+  margin-bottom: 10px;
+  width: 25%;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.right h3:hover {
+  background-color: forestgreen;
+}
+.introduction {
+  background-color: yellow;
+  line-height: 1.7em;
+}
+.head {
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
